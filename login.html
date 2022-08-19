@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>login</title>
+  </head>
+  <body>
+    <h1>Login Hare</h1>
+
+    <form onsubmit="login(); return false ">
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+      <br />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" required />
+      <br />
+
+      <input type="submit" value="Login" />
+    </form>
+    <p id="message1"></p>
+    <script src="./index.js"></script>
+  </body>
+</html>
