@@ -13,6 +13,7 @@ function signup() {
 
   axios
     .post("https://formserver1.herokuapp.com/signup", {
+      // .post("https://localhost3000/signup", {
       firstName,
       lastName,
       email,
@@ -37,6 +38,7 @@ function login() {
 
   axios
     .post("https://formserver1.herokuapp.com/login", {
+      // .post("https://localhost3000/signup", {
       email,
       password,
     })
